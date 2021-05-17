@@ -1,0 +1,66 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  #name{
+   padding:0px 15px 0px ;
+  }
+  #email{
+ padding:0px 15px 0px ;
+  }
+  #title{
+    font-size: 35px;
+  }
+  #number{
+    padding: 0px 64px 0px;
+  }
+  
+  textarea{
+    width: 400px;
+    height:100px;
+  }
+</style>
+
+
+<h1 id="title"> Welcome, thanks for assisting the future of the nation.<thing>  </h1>
+  <P id = "description"> Hello, this is a covid survey, please fill this out and we will be contacting you as soon as possible, Thank You </P> 
+  
+    
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name; </label> 
+        <input type="text" id="name" placeholder="First name" required>
+        <input type="submit" value="submit" >
+        <br> 
+        <label id="email-label"> Email: </label> 
+       <input type="email" id="email" placeholder="enter email" required>
+          <input type = "submit" value= "submit">
+          <br>
+        <label id="number-label"> Id Number: </label>
+            <input type="number" min ="0" max="10" id="number" placeholder="Id#" required> 
+            <input type="submit" value= "submit">
+        
+        <br>
+        <select id="dropdown">   
+          <option > </option>  
+                <option> 12</option>  
+        <option > 11</option>  
+          <option > 10</option>  
+        </select>
+        <br>
+        
+          <input type="radio" name="RadioButton" value="0"> Idk
+      
+          <input type="radio" name="RadioButton" value="0">Yes
+<br>
+        <input type="checkbox" value="0" id="has_Covis">Check This box if you had covid </input>
+      <br>
+      <input type="checkbox" value="1" id="has_other"> Check this box if yyou have any other diesease before covis</input> 
+        <br>
+  <textarea>
+    Any further questions or comments Please Insert here.
+  </textarea>
+  <br>
+  <button id="submit"> Submit</submit> 
+    
+      </fieldset>
+    </form> 
